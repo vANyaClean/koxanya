@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form Sample</title>
+     <link rel="icon" href="img/kalambur.jpg">
+    <title>Fans Page</title>
 </head>
 <body>
     <header>
-        <h1>Form Sample</h1>
+        <h1>Fan Register</h1>
         <nav>
             <a href="index.html">Home</a>
         </nav>
     </header>
     <form action="https://formspree.io/moqkjygy" method="POST">
-        <label>Client Name:
-            <input type="text" name="client-name" placeholder="Client Name" required>    
+        <label>Fan name:
+            <input type="text" name="fan-name" placeholder="Fan Name" required>    
         </label>
         <br>
-        <label>Client Email:
-            <input type="email" name="email" placeholder="Client Email" required>    
+        <label>Fan Email:
+            <input type="email" name="email" placeholder="Fan Email" required>    
         </label>
         <br>
         <label >Gender:</label>
@@ -31,6 +32,19 @@
         </label>
         <label>
             <input type="radio" name="Gender" value="Trasgender">Transgender
+        </label>
+        <br>
+        <p>What actor are you a fan of</p>
+        <label>
+            <input type="checkbox" name="actor" value="Tetyana Ivanova">Tetyana Ivanova<img src="img/baba.jpg" alt="baba">
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="actor" value="Vadym Nabokov">Vadym Nabokov <img src="img/nabokov.jpg" alt="nabokov">
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="actor" value="Sergey Gladkov">Sergey Gladkov <img src="img/gladkov.jpg" alt="gladkov">
         </label>
         <br>
         <input type="submit">
